@@ -296,7 +296,7 @@ def markets_menu(db_file):
             if cmd == "d":
                 market_id = input("Введите ID удаляемой записи: ")
                 cursor.execute("DELETE FROM markets WHERE id = ?", [market_id])
-                connection.commit
+                connection.commit()
                 if cursor.rowcount > 0:
                     print("Запись удалена.")
                 else:
