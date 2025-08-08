@@ -24,12 +24,7 @@
     <Compile Include="marketsdb.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="SQL\" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Export.csv" />
-    <Content Include="SQL\create_schema.sql" />
-    <Content Include="SQL\import.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
